@@ -1,6 +1,6 @@
 # Kodi Quality Check
 
-A small Kodi add-on that shows the real resolution of a video a few seconds after it starts playing, so you can spot results with a wrong quality label.
+A small Kodi add-on that warns you if a video's real resolution is below 1080p, or if its bitrate is low for its resolution, so you can spot results with a wrong quality label. It stays quiet otherwise.
 
 Requires Kodi 19 or newer.
 
@@ -18,4 +18,9 @@ Change the add-on, raise its version in `addon.xml`, run `python build.py`, then
 
 ## Limits
 
-The add-on reads the size of the video stream, so it can't detect a low-quality video that was upscaled. A low bitrate is the clue for those.
+The bitrate comes from what Kodi reports, or from file size and running time if Kodi doesn't report one. If neither is available, there's no bitrate warning. The warning is a clue, not proof:
+
+- A cinema recording or an upscale at a normal bitrate still passes.
+- A simple, clean video can be flagged even though it looks fine.
+
+Warning levels are 2.5 Mbps for 1080p and 8 Mbps for 4K. They're lowered by 40% for HEVC, AV1 and VP9.
