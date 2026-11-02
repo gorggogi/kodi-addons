@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="service.qualitycheck" name="Quality Check" version="1.4.0" provider-name="gorggogi">
+<addon id="service.qualitycheck" name="Quality Check" version="1.5.0" provider-name="gorggogi">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
     <extension point="xbmc.service" library="service.py"/>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Warns when a video's real resolution or bitrate is low</summary>
-        <description lang="en_GB">Shows a warning if a video is still below 1080p a few seconds after it starts playing, or if its bitrate is low for its resolution. It can also show the resolution and bitrate of every video. The resolution, warning levels and notification length can be changed in the settings.</description>
+        <description lang="en_GB">Shows a warning as soon as a video starts playing if its real resolution is below 1080p, or if its bitrate is low for its resolution. It can also show the resolution and bitrate of every video. The resolution, warning levels and notification length can be changed in the settings.</description>
         <platform>all</platform>
     </extension>
 </addon>
