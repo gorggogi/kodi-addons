@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="service.qualitycheck" name="Quality Check" version="1.0.1" provider-name="gorggogi">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Shows the real video resolution when playback starts</summary>
+        <description lang="en_GB">Shows a notification with the actual resolution and bitrate a few seconds after a video starts playing.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="repository.gorggogi" name="gorggogi Repository" version="1.0.0" provider-name="gorggogi">
+    <extension point="xbmc.addon.repository" name="gorggogi Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/gorggogi/kodi-quality-check/main/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/gorggogi/kodi-quality-check/main/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/gorggogi/kodi-quality-check/main/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Add-ons by gorggogi</summary>
+        <description lang="en_GB">Installs and updates add-ons by gorggogi, including Quality Check.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
