@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.mylists" name="My Lists" version="1.0.0" provider-name="gorggogi">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Handpicked addon lists for home screen widgets</summary>
+        <description lang="en_GB">Shows only the entries listed in lists.txt, so a stacked widget can show just the lists you choose.</description>
+        <platform>all</platform>
+    </extension>
+</addon>

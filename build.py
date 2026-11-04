@@ -10,7 +10,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-ADDONS = ['service.qualitycheck', 'repository.gorggogi']
+ADDONS = ['service.qualitycheck', 'plugin.video.mylists', 'repository.gorggogi']
 ZIPS = ROOT / 'zips'
 DOCS = ROOT / 'docs'
 

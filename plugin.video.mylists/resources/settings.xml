@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="General">
+        <setting label="Manage lists" type="action" action="RunPlugin(plugin://plugin.video.mylists/?mode=manage)" option="close"/>
+    </category>
+</settings>

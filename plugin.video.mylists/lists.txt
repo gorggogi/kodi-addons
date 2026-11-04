@@ -1,0 +1,4 @@
+# One entry per line:  Label | path | icon (icon is optional)
+# Elementum paths must NOT end with a slash.
+Trending | plugin://plugin.video.elementum/movies/trakt/trending | special://home/addons/plugin.video.elementum/resources/img/trending.png
+Popular | plugin://plugin.video.elementum/movies/trakt/popular | special://home/addons/plugin.video.elementum/resources/img/popular.png

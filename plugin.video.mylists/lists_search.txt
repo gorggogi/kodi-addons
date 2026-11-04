@@ -1,0 +1,3 @@
+# Used by plugin://plugin.video.mylists/?list=search
+# One entry per line:  Label | path | icon (icon is optional)
+Search | plugin://plugin.video.elementum/movies/search | DefaultAddonsSearch.png
