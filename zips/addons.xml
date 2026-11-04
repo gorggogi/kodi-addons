@@ -11,17 +11,30 @@
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="repository.gorggogi" name="gorggogi Repository" version="1.0.0" provider-name="gorggogi">
+<addon id="plugin.video.mylists" name="My Lists" version="1.0.0" provider-name="gorggogi">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Handpicked addon lists for home screen widgets</summary>
+        <description lang="en_GB">Shows only the entries listed in lists.txt, so a stacked widget can show just the lists you choose.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="repository.gorggogi" name="gorggogi Repository" version="1.0.1" provider-name="gorggogi">
     <extension point="xbmc.addon.repository" name="gorggogi Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/gorggogi/kodi-quality-check/main/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/gorggogi/kodi-quality-check/main/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/gorggogi/kodi-quality-check/main/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/gorggogi/kodi-addons/main/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/gorggogi/kodi-addons/main/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/gorggogi/kodi-addons/main/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Add-ons by gorggogi</summary>
-        <description lang="en_GB">Installs and updates add-ons by gorggogi, including Quality Check.</description>
+        <description lang="en_GB">Installs and updates add-ons by gorggogi: Quality Check and My Lists.</description>
         <platform>all</platform>
     </extension>
 </addon>
