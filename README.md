@@ -53,9 +53,11 @@ My Lists lists only the add-on folders you pick, like Elementum's Trending and P
 1. Go to Add-ons > My add-ons > Video add-ons > My Lists > Configure > Manage lists.
 2. Choose a list, or New list to make another one.
 3. Choose Add entry, pick an add-on and browse to the list you want. Inside it, choose Add this list.
-4. Choose Show widget path and enter that path for the widget in FENtastic. The Main list is `plugin://plugin.video.mylists/` and the others are `plugin://plugin.video.mylists/?list=NAME`.
+4. In FENtastic, set up the widget and browse to My Lists. Choose Use My Lists as path for the Main list, or open My Lists: NAME and choose Use NAME as path for another list. Show widget path gives the path to type in instead.
 
-Select an entry to rename it, move it or remove it. A label of a single space gives a tile with no text.
+Select an entry to rename it, move it or remove it. Rename this list and Delete this list are at the bottom of each list except Main. A label of a single space gives a tile with no text.
+
+To show a whole folder minus a few items, browse to it and choose Add everything in it, then tick the items to hide. Select that entry later and choose Choose hidden items to change them.
 
 ### Where the lists are kept
 
