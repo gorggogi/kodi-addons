@@ -11,7 +11,7 @@
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="plugin.video.mylists" name="My Lists" version="1.0.0" provider-name="gorggogi">
+<addon id="plugin.video.mylists" name="My Lists" version="1.1.0" provider-name="gorggogi">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
